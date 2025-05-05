@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Deep Search Research Engine
+## The key advantage of this AI-powered deep search tool lies not only in its extensive customization options—such as keyword targeting, search scope, recursive depth up to four levels, width up to seven ‘look-alikes’, date-based filtering, domain-specific or domain-excluded searches, and advanced filters based on keyword presence in answers or stop-word triggers—but also in its ability to leverage custom knowledge uploaded to the OpenAI vector store. These features empower you to produce truly original content or publish in-depth research, making it an ideal solution for creating high-quality website pages designed to attract organic traffic from Google.
 
-## Getting Started
+This is a build version of a self-hosted SaaS application designed to perform deep research on the Internet as well as within your own knowledge base. The application is built using **Next.js 15**, **shancd/ui**, **OpenAI**, and **exa.ai**.
 
-First, run the development server:
+## Goals and Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Deep Web Research:**  
+  Perform extensive research by dynamically generating search queries and analyzing search results.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Internal Knowledge Base Integration:**  
+  Utilize vector search technologies to extract insights from your own knowledge repositories.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **AI-Powered Evaluation:**  
+  Leverage advanced AI models (e.g., GPT-4.1-mini for find and o3-mini or report) to assess the relevance of search results and automatically generate follow-up queries for deeper investigation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Expert Report Generation:**  
+  Automatically compile detailed expert reports based on the gathered research data.
 
-## Learn More
+- **Multi-Language Support:**  
+  The application supports multiple languages for response generation. The response language can be set through environment variables (default is English, available options include Russian, German, Spanish, French, and Italian).
 
-To learn more about Next.js, take a look at the following resources:
+## Requirements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **API Keys:**  
+  - An **OpenAI API key** is required for text generation and relevance evaluation.  
+  - An **exa.ai API key** is required for executing web searches.
+- **Environment Variables:**  
+  Set the appropriate environment variable (e.g., `NEXT_PUBLIC_APP_HTTP_LANG`) to define the language of the responses.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+This repository contains the build version of the application. It is intended for use as is and is not meant for code modifications or further development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*For testing purposes, the application can be deployed on a free Vercel server. Note that the free plan allows a maximum timeout of 60 seconds. For handling complex queries and ensuring stable performance, deploying on a dedicated server is recommended. If you encounter any difficulties with deployment, professional installation assistance is available for €10.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Support
+
+If you find this project useful, please give it a star on GitHub. Your support is greatly appreciated!

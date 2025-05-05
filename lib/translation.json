@@ -1,0 +1,696 @@
+[
+    {
+      "original": "Deep Research",
+      "translations": {
+        "en": "Deep Research",
+        "es": "Investigación Profunda",
+        "ru": "Глубокое исследование",
+        "de": "Tiefenforschung",
+        "it": "Ricerca Profonda",
+        "fr": "Recherche Approfondie"
+      }
+    },
+    {
+      "original": "Prompt",
+      "translations": {
+        "en": "Prompt",
+        "es": "Prompt",
+        "ru": "Prompt",
+        "de": "Prompt",
+        "it": "Prompt",
+        "fr": "Prompt"
+      }
+    },
+    {
+      "original": "Vector Store ID",
+      "translations": {
+        "en": "Vector Store ID",
+        "es": "ID de Almacén Vectorial",
+        "ru": "Идентификатор векторного хранилища",
+        "de": "Vektor Speicher ID",
+        "it": "ID del Negozio Vettoriale",
+        "fr": "ID de stockage vectoriel"
+      }
+    },
+    {
+      "original": "Depth",
+      "translations": {
+        "en": "Depth",
+        "es": "Profundidad",
+        "ru": "Глубина",
+        "de": "Tiefe",
+        "it": "Profondità",
+        "fr": "Profondeur"
+      }
+    },
+    {
+      "original": "Breadth",
+      "translations": {
+        "en": "Breadth",
+        "es": "Amplitud",
+        "ru": "Ширина",
+        "de": "Breite",
+        "it": "Ampiezza",
+        "fr": "Largeur"
+      }
+    },
+    {
+      "original": "Vector of Thought (каждый пункт с новой строки)",
+      "translations": {
+        "en": "Vector of Thought (each item on a new line)",
+        "es": "Vector de Pensamiento (cada punto en una nueva línea)",
+        "ru": "Vector of Thought (каждый пункт с новой строки)",
+        "de": "Denk-Vektor (jeder Punkt in einer neuen Zeile)",
+        "it": "Vettore del Pensiero (ogni voce su una nuova linea)",
+        "fr": "Vecteur de pensée (chaque élément sur une nouvelle ligne)"
+      }
+    },
+    {
+      "original": "Researching...",
+      "translations": {
+        "en": "Researching...",
+        "es": "Investigando...",
+        "ru": "Идет исследование...",
+        "de": "Forschung läuft...",
+        "it": "Ricerca in corso...",
+        "fr": "Recherche en cours..."
+      }
+    },
+    {
+      "original": "Start Research",
+      "translations": {
+        "en": "Start Research",
+        "es": "Iniciar investigación",
+        "ru": "Начать исследование",
+        "de": "Forschung starten",
+        "it": "Avvia la ricerca",
+        "fr": "Lancer la recherche"
+      }
+    },
+    {
+      "original": "Result",
+      "translations": {
+        "en": "Result",
+        "es": "Resultado",
+        "ru": "Результат",
+        "de": "Ergebnis",
+        "it": "Risultato",
+        "fr": "Résultat"
+      }
+    },
+    {
+      "original": "Error in response",
+      "translations": {
+        "en": "Error in response",
+        "es": "Error en la respuesta",
+        "ru": "Ошибка в ответе",
+        "de": "Fehler in der Antwort",
+        "it": "Errore nella risposta",
+        "fr": "Erreur dans la réponse"
+      }
+    },
+    {
+      "original": "Unexpected response format",
+      "translations": {
+        "en": "Unexpected response format",
+        "es": "Formato de respuesta inesperado",
+        "ru": "Непредвиденный формат ответа",
+        "de": "Unerwartetes Antwortformat",
+        "it": "Formato di risposta inaspettato",
+        "fr": "Format de réponse inattendu"
+      }
+    },
+    {
+      "original": "Network or server error",
+      "translations": {
+        "en": "Network or server error",
+        "es": "Error de red o servidor",
+        "ru": "Ошибка сети или сервера",
+        "de": "Netzwerk- oder Serverfehler",
+        "it": "Errore di rete o del server",
+        "fr": "Erreur réseau ou serveur"
+      }
+    },
+    {
+      "original": "Ошибка",
+      "translations": {
+        "en": "Error",
+        "es": "Error",
+        "ru": "Ошибка",
+        "de": "Fehler",
+        "it": "Errore",
+        "fr": "Erreur"
+      }
+    },
+    {
+      "original": "Скачать Report.md",
+      "translations": {
+        "en": "Download Report.md",
+        "es": "Descargar Report.md",
+        "ru": "Скачать Report.md",
+        "de": "Report.md herunterladen",
+        "it": "Scarica Report.md",
+        "fr": "Télécharger Report.md"
+      }
+    },
+    {
+        "original": "Start Publish Date",
+        "translations": {
+          "en": "Start Publish Date",
+          "es": "Fecha de inicio de publicación",
+          "ru": "Дата начала публикации",
+          "de": "Startdatum der Veröffentlichung",
+          "it": "Data di inizio pubblicazione",
+          "fr": "Date de début de publication"
+        }
+      },
+      {
+        "original": "Only links with a publication date after this one will be returned.",
+        "translations": {
+          "en": "Only links with a publication date after this one will be returned.",
+          "es": "Solo se devolverán enlaces con una fecha de publicación posterior a esta.",
+          "ru": "Будут возвращены только ссылки с датой публикации после этой.",
+          "de": "Es werden nur Links mit einem Veröffentlichungsdatum nach diesem zurückgegeben.",
+          "it": "Verranno restituiti solo i link con data di pubblicazione successiva a questa.",
+          "fr": "Seuls les liens avec une date de publication après celle-ci seront retournés."
+        }
+      },
+      {
+        "original": "End Publish Date",
+        "translations": {
+          "en": "End Publish Date",
+          "es": "Fecha de fin de publicación",
+          "ru": "Дата окончания публикации",
+          "de": "Enddatum der Veröffentlichung",
+          "it": "Data di fine pubblicazione",
+          "fr": "Date de fin de publication"
+        }
+      },
+      {
+        "original": "Only links with a previously published date will be returned.",
+        "translations": {
+          "en": "Only links with a previously published date will be returned.",
+          "es": "Solo se devolverán enlaces con una fecha de publicación previa.",
+          "ru": "Будут возвращены только ссылки с ранее опубликованной датой.",
+          "de": "Es werden nur Links mit einem zuvor veröffentlichten Datum zurückgegeben.",
+          "it": "Verranno restituiti solo i link con una data di pubblicazione precedente.",
+          "fr": "Seuls les liens avec une date de publication antérieure seront retournés."
+        }
+      },
+      {
+        "original": "Topics that must be the focus of the research.",
+        "translations": {
+          "en": "Topics that must be the focus of the research.",
+          "es": "Temas que deben ser el foco de la investigación.",
+          "ru": "Темы, которые должны быть в центре исследования.",
+          "de": "Themen, die im Mittelpunkt der Forschung stehen müssen.",
+          "it": "Argomenti che devono essere al centro della ricerca.",
+          "fr": "Sujets qui doivent être au centre de la recherche."
+        }
+      }
+      ,
+      {
+        "original": "Deep Research",
+        "translations": {
+          "en": "Deep Research",
+          "ru": "Глубинное исследование",
+          "es": "Investigación profunda",
+          "de": "Tiefenforschung",
+          "it": "Ricerca approfondita",
+          "fr": "Recherche approfondie"
+        }
+      },
+      {
+        "original": "Prompt",
+        "translations": {
+          "en": "Prompt",
+          "ru": "Промпт",
+          "es": "Sugerencia",
+          "de": "Aufforderung",
+          "it": "Richiesta",
+          "fr": "Invite"
+        }
+      },
+      {
+        "original": "Vector Store ID",
+        "translations": {
+          "en": "Vector Store ID",
+          "ru": "ID векторной базы",
+          "es": "ID de la tienda de vectores",
+          "de": "Vektor Store ID",
+          "it": "ID del negozio vettoriale",
+          "fr": "ID de la boutique de vecteurs"
+        }
+      },
+      {
+        "original": "Depth",
+        "translations": {
+          "en": "Depth",
+          "ru": "Глубина",
+          "es": "Profundidad",
+          "de": "Tiefe",
+          "it": "Profondità",
+          "fr": "Profondeur"
+        }
+      },
+      {
+        "original": "Breadth",
+        "translations": {
+          "en": "Breadth",
+          "ru": "Ширина",
+          "es": "Amplitud",
+          "de": "Breite",
+          "it": "Larghezza",
+          "fr": "Largeur"
+        }
+      },
+      {
+        "original": "Topics that must be the focus of the research.",
+        "translations": {
+          "en": "Topics that must be the focus of the research.",
+          "ru": "Темы, которые должны быть в центре исследования.",
+          "es": "Temas que deben ser el enfoque de la investigación.",
+          "de": "Themen, die im Mittelpunkt der Forschung stehen müssen.",
+          "it": "Argomenti che devono essere al centro della ricerca.",
+          "fr": "Sujets qui doivent être au centre de la recherche."
+        }
+      },
+      {
+        "original": "Start Publish Date",
+        "translations": {
+          "en": "Start Publish Date",
+          "ru": "Дата начала публикации",
+          "es": "Fecha de inicio de publicación",
+          "de": "Veröffentlichungsdatum starten",
+          "it": "Data di inizio pubblicazione",
+          "fr": "Date de début de publication"
+        }
+      },
+      {
+        "original": "Only links with a publication date after this one will be returned.",
+        "translations": {
+          "en": "Only links with a publication date after this one will be returned.",
+          "ru": "Будут возвращены только ссылки с датой публикации после этой.",
+          "es": "Solo se devolverán enlaces con una fecha de publicación posterior a esta.",
+          "de": "Es werden nur Links mit einem Veröffentlichungsdatum nach diesem zurückgegeben.",
+          "it": "Saranno restituiti solo i collegamenti con una data di pubblicazione successiva a questa.",
+          "fr": "Seuls les liens avec une date de publication après celle-ci seront renvoyés."
+        }
+      },
+      {
+        "original": "End Publish Date",
+        "translations": {
+          "en": "End Publish Date",
+          "ru": "Дата конца публикации",
+          "es": "Fecha de finalización de publicación",
+          "de": "Enddatum der Veröffentlichung",
+          "it": "Data di fine pubblicazione",
+          "fr": "Date de fin de publication"
+        }
+      },
+      {
+        "original": "Only links with a previously published date will be returned.",
+        "translations": {
+          "en": "Only links with a previously published date will be returned.",
+          "ru": "Будут возвращены только ссылки с датой публикации до этой.",
+          "es": "Solo se devolverán enlaces con una fecha de publicación anterior a esta.",
+          "de": "Es werden nur Links mit einem zuvor veröffentlichten Datum zurückgegeben.",
+          "it": "Verranno restituiti solo i collegamenti con una data di pubblicazione precedente a questa.",
+          "fr": "Seuls les liens avec une date de publication précédente seront renvoyés."
+        }
+      },
+      {
+        "original": "Category",
+        "translations": {
+          "en": "Category",
+          "ru": "Категория",
+          "es": "Categoría",
+          "de": "Kategorie",
+          "it": "Categoria",
+          "fr": "Catégorie"
+        }
+      },
+      {
+        "original": "Select category (optional)",
+        "translations": {
+          "en": "Select category (optional)",
+          "ru": "Выберите категорию (необязательно)",
+          "es": "Seleccionar categoría (opcional)",
+          "de": "Kategorie auswählen (optional)",
+          "it": "Seleziona categoria (opzionale)",
+          "fr": "Sélectionner une catégorie (facultatif)"
+        }
+      },
+      {
+        "original": "A data category to focus on. Available options: company, research paper, news, pdf, github, tweet, personal site, linkedin profile, financial report.",
+        "translations": {
+          "en": "A data category to focus on. Available options: company, research paper, news, pdf, github, tweet, personal site, linkedin profile, financial report.",
+          "ru": "Категория данных для сосредоточения. Доступные опции: компания, научная статья, новости, pdf, github, твит, личный сайт, профиль linkedin, финансовый отчёт.",
+          "es": "Una categoría de datos en la que centrarse. Opciones disponibles: empresa, artículo de investigación, noticias, pdf, github, tweet, sitio personal, perfil de linkedin, informe financiero.",
+          "de": "Eine Datenkategorie, auf die man sich konzentrieren sollte. Verfügbare Optionen: Unternehmen, Forschungsarbeit, Nachrichten, pdf, github, tweet, sito personale, linkedin профайл, финансовый отчет.",
+          "it": "Una categoria di dati su cui concentrarsi. Opzioni disponibili: azienda, documento di ricerca, notizie, pdf, github, tweet, sito personale, profilo linkedin, rapporto finanziario.",
+          "fr": "Une catégorie de données sur laquelle se concentrer. Options disponibles : entreprise, article de recherche, nouvelles, pdf, github, tweet, site personnel, profil linkedin, rapport financier."
+        }
+      },
+      {
+        "original": "Include Domains",
+        "translations": {
+          "en": "Include Domains",
+          "ru": "Включить домены",
+          "es": "Incluir dominios",
+          "de": "Domains einbeziehen",
+          "it": "Includere i domini",
+          "fr": "Inclure des domaines"
+        }
+      },
+      {
+        "original": "List of domains to include in the search. Only results from these domains will be returned.",
+        "translations": {
+          "en": "List of domains to include in the search. Only results from these domains will be returned.",
+          "ru": "Список доменов для включения в поиск. Вернутся только результаты с этих доменов.",
+          "es": "Lista de dominios a incluir en la búsqueda. Solo se devolverán resultados de estos dominios.",
+          "de": "Liste von Domains, die in die Suche einbezogen werden sollen. Nur Ergebnisse von diesen Domains werden zurückgegeben.",
+          "it": "Elenco di domini da includere nella ricerca. Saranno restituiti solo risultati di questi domini.",
+          "fr": "Liste de domaines à inclure dans la recherche. Seuls les résultats de ces domaines seront renvoyés."
+        }
+      },
+      {
+        "original": "Exclude Domains",
+        "translations": {
+          "en": "Exclude Domains",
+          "ru": "Исключить домены",
+          "es": "Excluir dominios",
+          "de": "Domains ausschließen",
+          "it": "Escludere i domini",
+          "fr": "Exclure des domaines"
+        }
+      },
+      {
+        "original": "List of domains to exclude from search results. No results from these domains will be returned.",
+        "translations": {
+          "en": "List of domains to exclude from search results. No results from these domains will be returned.",
+          "ru": "Список доменов для исключения из результатов поиска. Результаты с этих доменов не будут возвращены.",
+          "es": "Lista de dominios a excluir de los resultados de búsqueda. No se devolverán resultados de estos dominios.",
+          "de": "Liste der Domains, die von den Suchergebnissen ausgeschlossen werden sollen. Es werden keine Ergebnisse von diesen Domains zurückgegeben.",
+          "it": "Elenco di domini da escludere dai risultati della ricerca. Non verranno restituiti risultati di questi domini.",
+          "fr": "Liste des domaines à exclure des résultats de recherche. Aucun résultat de ces domaines ne sera renvoyé."
+        }
+      },
+      {
+        "original": "Include Text",
+        "translations": {
+          "en": "Include Text",
+          "ru": "Включить текст",
+          "es": "Incluir texto",
+          "de": "Text einfügen",
+          "it": "Includere testo",
+          "fr": "Inclure le texte"
+        }
+      },
+      {
+        "original": "List of strings that must be present in webpage text of results. Max 5 items, up to ~5 words each.",
+        "translations": {
+          "en": "List of strings that must be present in webpage text of results. Max 5 items, up to ~5 words each.",
+          "ru": "Список строк, которые должны присутствовать в тексте страницы результата. Максимум 5 элементов, до ~5 слов каждый.",
+          "es": "Lista de cadenas que deben estar presentes en el texto de la página web de los resultados. Máx. 5 elementos, hasta ~5 palabras cada uno.",
+          "de": "Liste der Zeichenfolgen, die im Text der Ergebnisseite vorhanden sein müssen. Max. 5 Elemente, bis zu ~5 Wörter pro Element.",
+          "it": "Elenco di stringhe che devono essere presenti nel testo della pagina dei risultati. Max 5 elementi, fino a ~5 parole ciascuno.",
+          "fr": "Liste des chaînes qui doivent être présentes dans le texte de la page de résultats. Max 5 éléments, jusqu'à ~5 mots chacun."
+        }
+      },
+      {
+        "original": "Exclude Text",
+        "translations": {
+          "en": "Exclude Text",
+          "ru": "Исключить текст",
+          "es": "Excluir texto",
+          "de": "Text ausschließen",
+          "it": "Escludere testo",
+          "fr": "Exclure le texte"
+        }
+      },
+      {
+        "original": "List of strings that must not be present in webpage text of results. Max 5 items, up to ~5 words each.",
+        "translations": {
+          "en": "List of strings that must not be present in webpage text of results. Max 5 items, up to ~5 words each.",
+          "ru": "Список строк, которых не должно быть в тексте страницы результата. Максимум 5 элементов, до ~5 слов каждый.",
+          "es": "Lista de cadenas que no deben estar presentes en el texto de la página web de los resultados. Máx. 5 elementos, hasta ~5 palabras cada uno.",
+          "de": "Liste der Zeichenfolgen, die im Text der Ergebnisseite nicht enthalten sein dürfen. Max. 5 Elemente, bis zu ~5 Wörter pro Element.",
+          "it": "Elenco di stringhe che non devono essere presenti nel testo della pagina dei risultati. Max 5 elementi, fino a ~5 parole ciascuno.",
+          "fr": "Liste des chaînes qui ne doivent pas être présentes dans le texte de la page de résultats. Max 5 éléments, jusqu'à ~5 mots chacun."
+        }
+      },
+      {
+        "original": "System Prompt (для генерации отчёта)",
+        "translations": {
+          "en": "System Prompt (for report generation)",
+          "ru": "System Prompt (для генерации отчёта)",
+          "es": "Sistema Prompt (para generación de informes)",
+          "de": "Systemaufforderung (zur Berichterstellung)",
+          "it": "Richiesta di sistema (per la generazione di rapporti)",
+          "fr": "Invite du système (pour la génération de rapports)"
+        }
+      },
+      {
+        "original": "Researching...",
+        "translations": {
+          "en": "Researching...",
+          "ru": "Идёт исследование...",
+          "es": "Investigando...",
+          "de": "Forschung...",
+          "it": "Ricerca in corso...",
+          "fr": "Recherche en cours..."
+        }
+      },
+      {
+        "original": "Start Research",
+        "translations": {
+          "en": "Start Research",
+          "ru": "Начать исследование",
+          "es": "Iniciar investigación",
+          "de": "Forschung starten",
+          "it": "Iniziare la ricerca",
+          "fr": "Démarrer la recherche"
+        }
+      },
+      {
+        "original": "Result",
+        "translations": {
+          "en": "Result",
+          "ru": "Результат",
+          "es": "Resultado",
+          "de": "Ergebnis",
+          "it": "Risultato",
+          "fr": "Résultat"
+        }
+      },
+      {
+        "original": "Ошибка",
+        "translations": {
+          "en": "Error",
+          "ru": "Ошибка",
+          "es": "Error",
+          "de": "Fehler",
+          "it": "Errore",
+          "fr": "Erreur"
+        }
+      },
+      {
+        "original": "Скачать Report.md",
+        "translations": {
+          "en": "Download Report.md",
+          "ru": "Скачать Report.md",
+          "es": "Descargar Report.md",
+          "de": "Report.md herunterladen",
+          "it": "Scarica Report.md",
+          "fr": "Télécharger Report.md"
+        }
+      },
+      {
+        "original": "Error in response",
+        "translations": {
+          "en": "Error in response",
+          "ru": "Ошибка в ответе",
+          "es": "Error en la respuesta",
+          "de": "Fehler in der Antwort",
+          "it": "Errore nella risposta",
+          "fr": "Erreur dans la réponse"
+        }
+      },
+      {
+        "original": "Unexpected response format",
+        "translations": {
+          "en": "Unexpected response format",
+          "ru": "Неожиданный формат ответа",
+          "es": "Formato de respuesta inesperado",
+          "de": "Unerwartetes Antwortformat",
+          "it": "Formato di risposta imprevisto",
+          "fr": "Format de réponse inattendu"
+        }
+      },
+      {
+        "original": "Network or server error",
+        "translations": {
+          "en": "Network or server error",
+          "ru": "Ошибка сети или сервера",
+          "es": "Error de red o del servidor",
+          "de": "Netzwerk- oder Serverfehler",
+          "it": "Errore di rete o del server",
+          "fr": "Erreur réseau ou serveur"
+        }
+      }
+      ,
+      {
+        "original": "Company",
+        "translations": {
+          "en": "Company",
+          "es": "Compañía",
+          "ru": "Компания",
+          "de": "Unternehmen",
+          "it": "Azienda",
+          "fr": "Société"
+        }
+      },
+      {
+        "original": "Research Paper",
+        "translations": {
+          "en": "Research Paper",
+          "es": "Artículo de Investigación",
+          "ru": "Научная статья",
+          "de": "Forschungsartikel",
+          "it": "Articolo di Ricerca",
+          "fr": "Article de Recherche"
+        }
+      },
+      {
+        "original": "News",
+        "translations": {
+          "en": "News",
+          "es": "Noticias",
+          "ru": "Новости",
+          "de": "Nachrichten",
+          "it": "Notizie",
+          "fr": "Nouvelles"
+        }
+      },
+      {
+        "original": "PDF",
+        "translations": {
+          "en": "PDF",
+          "es": "PDF",
+          "ru": "PDF",
+          "de": "PDF",
+          "it": "PDF",
+          "fr": "PDF"
+        }
+      },
+      {
+        "original": "GitHub",
+        "translations": {
+          "en": "GitHub",
+          "es": "GitHub",
+          "ru": "GitHub",
+          "de": "GitHub",
+          "it": "GitHub",
+          "fr": "GitHub"
+        }
+      },
+      {
+        "original": "Tweet",
+        "translations": {
+          "en": "Tweet",
+          "es": "Tweet",
+          "ru": "Твит",
+          "de": "Tweet",
+          "it": "Tweet",
+          "fr": "Tweet"
+        }
+      },
+      {
+        "original": "Personal Site",
+        "translations": {
+          "en": "Personal Site",
+          "es": "Sitio Personal",
+          "ru": "Личный сайт",
+          "de": "Persönliche Webseite",
+          "it": "Sito Personale",
+          "fr": "Site Personnel"
+        }
+      },
+      {
+        "original": "LinkedIn Profile",
+        "translations": {
+          "en": "LinkedIn Profile",
+          "es": "Perfil de LinkedIn",
+          "ru": "Профиль LinkedIn",
+          "de": "LinkedIn-Profil",
+          "it": "Profilo LinkedIn",
+          "fr": "Profil LinkedIn"
+        }
+      },
+      {
+        "original": "Financial Report",
+        "translations": {
+          "en": "Financial Report",
+          "es": "Informe Financiero",
+          "ru": "Финансовый отчет",
+          "de": "Finanzbericht",
+          "it": "Rapporto Finanziario",
+          "fr": "Rapport Financier"
+        }
+      },
+      {
+        "original": "Show all settings",
+        "translations": {
+            "en": "Show all settings",
+            "es": "Mostrar todas las configuraciones",
+            "ru": "Показать все настройки",
+            "de": "Alle Einstellungen anzeigen",
+            "it": "Mostra tutte le impostazioni",
+            "fr": "Afficher tous les paramètres"
+        }
+    },
+    {
+        "original": "Comma separated list of domains",
+        "translations": {
+            "en": "Comma separated list of domains",
+            "es": "Lista de dominios separados por comas",
+            "ru": "Список доменов, разделенных запятыми",
+            "de": "Durch Kommas getrennte Liste von Domains",
+            "it": "Elenco di domini separati da virgole",
+            "fr": "Liste des domaines séparés par des virgules"
+        }
+    },
+    {
+        "original": "Comma separated list of strings",
+        "translations": {
+            "en": "Comma separated list of strings",
+            "es": "Lista de cadenas separadas por comas",
+            "ru": "Список строк, разделенных запятыми",
+            "de": "Durch Kommas getrennte Liste von Zeichenfolgen",
+            "it": "Elenco di stringhe separate da virgole",
+            "fr": "Liste des chaînes séparées par des virgules"
+        }
+    },{
+        "original": "Web1V2- Deep Researcher",
+        "translations": {
+            "en": "Web1V2- Deep Researcher",
+            "es": "Web1V2- Investigador Profundo",
+            "ru": "Web1V2- Глубокий Исследователь",
+            "de": "Web1V2- Tiefenforscher",
+            "it": "Web1V2- Ricercatore Approfondito",
+            "fr": "Web1V2- Chercheur Approfondi"
+        }
+    },
+    {
+        "original": "Create meaningful content based on deep internet research, enriched with insights from your own knowledge base — to generate truly original, author-level content, unlike anything mass-produced by typical social media feeds.",
+        "translations": {
+            "en": "Create meaningful content based on deep internet research, enriched with insights from your own knowledge base — to generate truly original, author-level content, unlike anything mass-produced by typical social media feeds.",
+            "es": "Cree contenido significativo basado en una profunda investigación en internet, enriquecido con conocimientos de su propia base de conocimiento, para generar contenido verdaderamente original y de nivel de autor, diferente a cualquier cosa producida en masa por los feeds típicos de redes sociales.",
+            "ru": "Создайте значимый контент на основе глубоких Интернет-исследований, обогащенный мыслями из вашей собственной базы знаний — чтобы создать поистине оригинальный контент уровня автора, ничего на массовое производство типичных лент социальных сетей.",
+            "de": "Erstellen Sie bedeutungsvollen Inhalt basierend auf gründlicher Internetrecherche, angereichert mit Erkenntnissen aus Ihrem eigenen Wissensspeicher — um wirklich originellen, autorenwürdigen Inhalt zu generieren, der sich von allem unterscheidet, was in Massenproduktion von typischen sozialen Medienfeeds stammt.",
+            "it": "Crea contenuti significativi basati su una ricerca approfondita su internet, arricchiti con spunti dalla tua stessa base di conoscenze — per generare contenuti veramente originali, a livello di autore, diversi da qualsiasi cosa prodotta in massa dai tipici feed dei social media.",
+            "fr": "Créez un contenu significatif basé sur une recherche approfondie sur Internet, enrichi par des idées provenant de votre propre base de connaissances — pour générer un contenu vraiment original, au niveau des auteurs, contrairement à tout ce qui est produit en masse par les flux de réseaux sociaux typiques."
+        }
+    }
+  ]
