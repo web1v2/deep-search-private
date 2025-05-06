@@ -34,6 +34,8 @@ This is a build version of a self-hosted SaaS application designed to perform de
 
 This repository contains the build version of the application. It is intended for use as is and is not meant for code modifications or further development.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/web1v2/web1v2-deep-researcer)
+
 *For testing purposes, the application can be deployed on a free Vercel server. Note that the free plan allows a maximum timeout of 60 seconds. For handling complex queries and ensuring stable performance, deploying on a dedicated server is recommended. If you encounter any difficulties with deployment, professional installation assistance is available for €10.*
 
 ## Support
