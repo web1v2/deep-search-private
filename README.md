@@ -62,6 +62,7 @@ Support costs by portal size
 Below is the expert research report prepared on 2025‑05‑06, which examines the critical technical and economic aspects when comparing WordPress and Next.js as frameworks for SEO with integrated AI. The report focuses on four key areas: Return on Investment (ROI), trend analysis (growth/decline), server costs as load increases, and support costs by portal size. Each section has been developed in detail with extensive summaries, illustrative use cases with charts and tables, a list of advantages/disadvantages, and a regression‐based forecast of key trends. All statements and numerical data are analytically derived, and where external documentation is referenced, the resource is identified accordingly.
 
 ──────────────────────────────
+
 Title: Comprehensive Comparison of WordPress vs Next.js for SEO with AI – ROI, Trends, Scalability, and Support  
 Objective: To deliver an in‑depth analysis of the economic, technical, and operational parameters influencing the choice between WordPress and Next.js for SEO solutions enhanced with AI, by examining aspects such as return on investment, trend dynamics (growth/stagnation/decline), server-related overhead under load, and the support cost scaling with portal size.  
 Date: 2025‑05‑06
