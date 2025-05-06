@@ -12,7 +12,7 @@ This is a build version of a self-hosted SaaS application designed to perform de
   Utilize vector search technologies to extract insights from your own knowledge repositories.
 
 - **AI-Powered Evaluation:**  
-  Leverage advanced AI models (e.g., GPT-4.1-mini for find and o3-mini or report) to assess the relevance of search results and automatically generate follow-up queries for deeper investigation.
+  Leverage advanced AI models (e.g., GPT-4.1-mini for find and o3-mini for report) to assess the relevance of search results and automatically generate follow-up queries for deeper investigation.
 
 - **Expert Report Generation:**  
   Automatically compile detailed expert reports based on the gathered research data.
