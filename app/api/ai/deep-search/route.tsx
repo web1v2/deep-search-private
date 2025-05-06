@@ -28,7 +28,7 @@ type Research = {
   completedQueries: string[];
 };
 
-const exa = new Exa(process.env.EXA_API_KEY);
+const exa = new Exa(process.env.EXA_API_KEY!);
 
 const mainModel = openai("gpt-4.1-mini");
 
