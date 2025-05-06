@@ -28,7 +28,7 @@ type Research = {
   completedQueries: string[];
 };
 
-const exa = new Exa(process.env.EXA_API_KEY!);
+const exa = new Exa(process.env.EXA_API_KEY);
 
 const mainModel = openai("gpt-4.1-mini");
 
@@ -83,7 +83,7 @@ const generateSearchQueries = async (query: string, breadth: number) => {
     model: mainModel,
     prompt: `Generate ${breadth} search queries for the following query: ${query}`,
     schema: z.object({
-      queries: z.array(z.string()).min(1).max(7),
+      queries: z.array(z.string()).min(1).max(10),
     }),
   });
   return queries;
@@ -108,7 +108,7 @@ const searchAndProcess = async (
     prompt: `Search the web for information about ${query}, For each item, where possible, collect detailed examples of use cases (news stories) with a detailed description.`,
     system:
       "You are a researcher. For each query, search the web and then evaluate if the results are relevant and will help answer the following query",
-    maxSteps: 7,
+    maxSteps: 10,
     tools: {
       searchWeb: tool({
         description: "Search the web for information about a given query",
@@ -194,7 +194,7 @@ const generateLearnings = async (query: string, searchResult: SearchResult) => {
 };
 
 async function getKnowledgeItem(query: string, vectorStoreId: string) {
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
   const response = await client.responses.create({
     model: "gpt-4.1",
@@ -319,7 +319,7 @@ const generateReport = async (
   vectorOfThought: string[],
   systemPrompt: string
 ) => {
-  console.log("research ", research);
+  console.log("systemPrompt ", systemPrompt);
   const { text } = await generateText({
     model: openai("o3-mini"),
     system: systemPrompt,

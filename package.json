@@ -1,7 +1,10 @@
 {
-  "name": "my-app",
+  "name": "Web1V2 - Deep Researcher",
   "version": "0.1.0",
-  "private": true,
+  "author": "bolshiyanov",
+  "email": "bolshiyanov@gmail.com",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
