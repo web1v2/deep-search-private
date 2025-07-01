@@ -1,6 +1,16 @@
 # Deep Search Research Engine
 ## The key advantage of this AI-powered deep search tool lies not only in its extensive customization options—such as keyword targeting, search scope, recursive depth up to four levels, width up to seven ‘look-alikes’, date-based filtering, domain-specific or domain-excluded searches, and advanced filters based on keyword presence in answers or stop-word triggers—but also in its ability to leverage custom knowledge uploaded to the OpenAI vector store. These features empower you to produce truly original content or publish in-depth research, making it an ideal solution for creating high-quality website pages designed to attract organic traffic from Google.
 
+---
+
+## ⭐ Support the Project
+
+**If you're interested in the idea of distributed architecture for AGI, please star this repository!** Your support helps develop an open alternative to corporate solutions in artificial intelligence.
+
+[![GitHub stars](https://img.shields.io/github/stars/aifa-agi/aifa?style=social)](https://github.com/aifa-agi/web1v2-deep-researcer/stargazers)
+
+---
+
 This is a build version of a self-hosted SaaS application designed to perform deep research on the Internet as well as within your own knowledge base. The application is built using **Next.js 15**, **shancd/ui**, **OpenAI**, and **exa.ai**.
 
 ## Goals and Features
